@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<style>
+		body{
+			background-color: #F5F5F5;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.box{
+			margin: 0 auto;
+			width: 1151px;
+			height: 576px;
+		}
+		.boxl{
+			width: 221px;
+			height: 576px;
+			float: left;
+		}
+		.boxl img{
+			width: 221px;
+			height: 576px;
+		}
+		.boxr{
+			float: left;
+			width: 930px;
+			height: 576px;
+		}
+		li{
+			float: left;
+			width: 220px;
+			height: 282px;
+			list-style: none;
+			margin-left: 12.5px;
+			background-color: white;
+		}
+		.lc{
+			margin-bottom: 12.5px;
+		}
+		li h4{
+			font-weight: 400;
+			text-align: center;
+		}
+		li p{
+			text-align: center;
+			font-size: 10px;
+			color: gray;
+		}
+		li .pc{
+			font-size: 16px;
+			color: coral;
+			padding-top: 6px;
+		}
+	</style>
+	<body>
+		<div class="box">
+			<div class="boxl">
+				<img src="css/a5d3a59f7b53c23feab77434aa1f383b.webp" alt="">
+			</div>
+			<div class="boxr">
+				<ul>
+					<li class="lc">
+						<img src="img/555070388ddc76c4de4b2c42b12c3c1d.webp" alt="">
+						<h4>Xiaomi 13 Ultra</h4>
+						<p>徕卡光学全焦段四摄</p>
+						<p class="pc">5999元起</p>
+						</li>
+					<li class="lc"></li>
+					<li class="lc"></li>
+					<li class="lc"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
